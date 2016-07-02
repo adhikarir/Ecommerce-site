@@ -1,0 +1,126 @@
+body{
+	background:skyblue;
+}
+.main_wrapper{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background-color: black
+}
+.header_wrapper{
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+
+
+}
+.menubar{
+	width: 1000px;
+	height: 50px;
+	background-color: gray;
+	color: white;
+}
+#menu{
+	padding: 0px;
+	margin: 0px;
+	line-height: 40px;
+}
+#menu li{
+	display: inline;
+	text-decoration: none;
+
+}
+#menu a{
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	margin: 5px;
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+}
+#form{
+	float: right;
+	padding: 8px;
+	line-height: 40px;
+
+}
+#menu a:hover{
+	color: orange;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+.content_wrapper{
+	width: 1000px;
+	
+	margin: auto;
+	background:pink;
+}
+#content_area{
+	width: 800px;
+	
+	float: right;
+	background:pink;
+}
+#sidebar{
+	width: 200px;
+	
+	background-color: black;
+	float: left;
+}
+#sidebar_title{
+	background-color: white;
+	color: black;
+	font-size: 22px;
+	font-family: arial;
+	padding: 10pax;
+	text-align: center;
+}
+#cats{
+	text-align: center;
+}
+
+#cats li{
+	list-style: none;
+	display: block;
+	margin: 5px;
+}
+#cats a{
+	color: white;
+	padding: 8px;
+	margin: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-family: COMIC Sans MS;
+	text-decoration: none;
+}
+#cats a:hover{
+	color: orange;
+	font-weight: bolder;
+}
+#products_box{
+	width: 780px;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+#single_product{
+	float: left;
+	margin-left: 30px;
+	padding: 10px;
+}
+#single_product img{
+	border:2px solid black;
+}
+#shopping_cart{
+	width: 800px;
+	height: 50px;
+	background-color: black;
+	color: white;
+
+}
+#footer{
+	width: 1000px;
+	height: 100px;
+	background-color: gray;
+	clear: both;
+}
