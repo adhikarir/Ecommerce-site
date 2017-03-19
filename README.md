@@ -13,8 +13,8 @@ Customer check item to purchase and item is added in their purchase list.
 
 ## Requirements
 PHP=>5.6.4
-this project include:
- *HTML
- *CSS
- *java Script
- *MySql
+ ### This project include:
+ * HTML
+ * CSS
+ * java Script
+ * MySql
